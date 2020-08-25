@@ -1,5 +1,5 @@
 # JavaFX-mini-project
-JavaFX mini project for the course CSE1007-Java Programming.  
+A time-table application made with JavaFX on Eclipse IDE.
 
 ### Author:
 - Vaishnav Srinidhi (19BCE0054)
