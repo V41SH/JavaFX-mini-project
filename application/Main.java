@@ -13,6 +13,7 @@ public class Main extends Application {
         loader.setControllerFactory(t -> new MainController(new Model()));
 
         stage.setScene(new Scene(loader.load()));
+	stage.setTitle("NoteR");
         stage.show();
     }
 
