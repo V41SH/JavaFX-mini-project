@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+
+   <top>
+      <MenuBar style="-fx-background-color: #6b808f;" BorderPane.alignment="CENTER">
+          <Menu text="File">
+              <MenuItem onAction="#saveAction" text="Save" />
+              <MenuItem onAction="#openAction" text="Load" />
+              
+          </Menu>
+
+          <Menu text="Exit">
+              <MenuItem onAction="#aboutAction" text="About" />
+              <MenuItem onAction="#exitAction" text="Exit" />
+          </Menu>
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+      </MenuBar>
+   </top>
+
+   <bottom>
+      <HBox prefHeight="63.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
+   </bottom>
+
+   <center>
+      <TextArea fx:id="textSpace" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #b2c9d9;" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
+
