@@ -1,4 +1,4 @@
-# JavaFX-mini-project
+# NoteR JavaFX application:
 The 'NoteR' app can be used to:
 - Take notes 
 - Write memos
