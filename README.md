@@ -1,5 +1,10 @@
 # JavaFX-mini-project
-A time-table application made with JavaFX on Eclipse IDE.
+This app can be used to:
+- Take notes 
+- Write memos
+- Basic text editing
+
+Made with JavaFX on Eclipse IDE and SceneBuilder.
 
 ### Author:
 - Vaishnav Srinidhi (19BCE0054)
