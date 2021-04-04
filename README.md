@@ -7,4 +7,4 @@ The 'NoteR' app can be used to:
 Made with JavaFX on Eclipse IDE and SceneBuilder.
 
 ### Author:
-- Vaishnav Srinidhi (19BCE0054)
+- Vaishnav Srinidhi
